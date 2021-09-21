@@ -1,0 +1,17 @@
+@font-face {
+    font-family: MuseoSansCyrl;
+    font-weight: 700;
+    src: url(../fonts/MuseoSansCyrl700.ttf);
+}
+
+@font-face {
+    font-family: MuseoSansCyrl;
+    font-weight: 500;
+    src: url(../fonts/MuseoSansCyrl500.ttf);
+}
+
+@font-face {
+    font-family: MuseoSansCyrl;
+    font-weight: 300;
+    src: url(../fonts/MuseoSansCyrl300.ttf);
+}
