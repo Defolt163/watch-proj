@@ -33,7 +33,38 @@
             width: 370px
 
     .advantages
+        padding-bottom: 50px
         &__box
             flex-direction: column
+            &:nth-last-child(1)
+                margin-top: 0
         &__items
             margin-top: 40px
+    .consultation
+        &__descr
+            margin-top: 50px
+        .feed-form
+            align-items: center
+            width: auto
+            input
+                width: 80%
+            .button
+                width: 80%
+
+@media ( max-width: 375px)
+    .promo
+        .header
+            display: flex
+            justify-content: center
+            &__oficial
+                display: none
+            &__contact
+                display: none
+        &__wrapper
+            align-items: center
+        &__header
+            text-align: left
+        &__subheader
+            text-align: left
+        &__icons
+            width: 319px
