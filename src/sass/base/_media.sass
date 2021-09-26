@@ -1,3 +1,9 @@
+@media (max-width: 991px)
+    .caorusel
+        &__inner
+            max-width: 100%
+            img
+                max-width: 100%
 @media ( max-width: 576px)
     .promo
         .header
@@ -13,6 +19,15 @@
             flex-direction: column
         &__items
             margin-top: 40px
+    .catalog
+        &__tabs
+            margin-top: 50px
+        &__tab
+            div
+                font-size: 14px
+        .catalog__content
+            display: flex
+            justify-content: center
 
 @media ( max-width: 425px)
     .promo
@@ -50,6 +65,15 @@
                 width: 80%
             .button
                 width: 80%
+    .catalog
+        .catalog__tabs
+            margin-top: 40px
+        .catalog__tab
+            margin: 0px 5px
+            height: 50px
+            line-height: 50px
+            div
+                font-size: 11px
 
 @media ( max-width: 375px)
     .promo
@@ -68,3 +92,17 @@
             text-align: left
         &__icons
             width: 319px
+    .catalog
+        .catalog__tabs
+            margin-bottom: 20px
+            display: block
+            padding-left: 20px
+        .catalog__tab
+            width: 250px
+            height: 40px
+            line-height: 40px
+            margin-top: 30px
+            &:last-child
+                margin-bottom: 0px
+            div
+                font-size: 14px
