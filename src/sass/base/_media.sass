@@ -4,6 +4,18 @@
             max-width: 100%
             img
                 max-width: 100%
+
+@media (max-width: 880px)
+    .callback
+        .callback__box
+            .callback-item-round
+                margin-right: 24px
+                width: 140px
+                height: 140px
+            .callback-item
+                &__text
+                    width: 480px
+
 @media ( max-width: 576px)
     .promo
         .header
@@ -28,6 +40,29 @@
         .catalog__content
             display: flex
             justify-content: center
+
+    .callback
+        .callback__box
+            .callback-item__wrapper
+                display: block
+                position: relative
+                margin-bottom: 50px
+                .callback-item-round
+                    margin-right: 24px
+                    width: 90px
+                    height: 90px
+                .callback-item
+                    &__name
+                        position: absolute
+                        top: 0px
+                        left: 100px
+                    &__results
+                        position: absolute
+                        top: 18px
+                        left: 100px
+                    &__text
+                        margin-top: 20px
+                        width: 480px
 
 @media ( max-width: 425px)
     .promo
@@ -74,6 +109,19 @@
             line-height: 50px
             div
                 font-size: 11px
+    
+    .callback
+        .callback__box
+            .callback-item__wrapper
+                .callback-item
+                    &__text
+                        width: 380px
+    footer
+        .footer__adress__wrapper
+            .footer__adress__box
+                padding-top: 50px
+                width: 386px
+                height: 248px
 
 @media ( max-width: 375px)
     .promo
@@ -106,3 +154,9 @@
                 margin-bottom: 0px
             div
                 font-size: 14px
+    .callback
+        .callback__box
+            .callback-item__wrapper
+                .callback-item
+                    &__text
+                        width: 364px
