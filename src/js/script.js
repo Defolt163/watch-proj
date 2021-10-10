@@ -6,8 +6,8 @@ $(document).ready(function(){
         speed: 1200,
         autoplay: true,
         autoplaySpeed: 8000,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../ico/arrow-left.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../ico/arrow-right.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="ico/arrow-left.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="ico/arrow-right.png"></button>',
         responsive: [
           {
             breakpoint: 992,
