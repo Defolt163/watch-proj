@@ -1,9 +1,17 @@
+@media (max-width: 1440px)
+    .pageup
+        .pageup__item
+            right: 50px
+        
 @media (max-width: 991px)
     .caorusel
         &__inner
             max-width: 100%
             img
                 max-width: 100%
+    .pageup
+        .pageup__item
+            right: 20px
 
 @media (max-width: 880px)
     .callback
@@ -15,6 +23,10 @@
             .callback-item
                 &__text
                     width: 480px
+    .pageup
+        .pageup__item
+            right: 20px
+            bottom: 20px
 
 @media ( max-width: 576px)
     .promo
@@ -79,8 +91,9 @@
             text-align: left
         &__subheader
             text-align: left
-        &__icons
-            width: 370px
+        .promo__icons
+            width: 400px
+            align-items: flex-end
 
     .advantages
         padding-bottom: 50px
@@ -145,6 +158,12 @@
             text-align: left
         &__icons
             width: 319px
+        .promo__wrapper
+            .promo__icons
+                width: 353px
+                align-items: flex-end
+                align-content: center
+                justify-content: space-around
     .catalog
         .catalog__tabs
             margin-bottom: 20px
@@ -165,3 +184,30 @@
                 .callback-item
                     &__text
                         width: 364px
+
+@media ( max-width: 320px)
+    .promo
+        .promo__wrapper
+            h1
+                font-size: 36px
+            .promo__subheader
+                font-size: 21px
+            .promo__icons
+                width: 300px
+                align-items: flex-end
+                align-content: center
+                justify-content: space-around
+    .pageup
+        .pageup__item
+            right: 5px
+            bottom: 10px
+            width: 40px
+            height: 40px
+    .callback
+        .callback__box
+            .callback-item__wrapper
+                .callback-item
+                    &__text
+                        width: 305px
+                        font-size: 13px
+    

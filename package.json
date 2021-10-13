@@ -25,6 +25,7 @@
     "sass": "^1.41.1"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "browser-sync": "^2.27.5"
   }
 }
