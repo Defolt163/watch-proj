@@ -80,7 +80,7 @@ $(document).ready(function(){
     }
   });
 
-  $("a[href=#upper]").on("click", function(e){
+  $("a[href=#upper], [href=#catalog]").on("click", function(e){
     e.preventDefault();
     var anchor = $(this).attr('href');
     $('html, body').stop().animate({
